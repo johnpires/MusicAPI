@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "s3of5mGkHWLpzByZkog/5IC9a6vr8vZ/m3TV8FGUweZbcw9ydkHJP0+LvuuOwNfTh53tGAHAAXvhxmsGb4IOqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\johnp\\source\\repos\\SolutionMyMusic\\MyMusic.Data.MongoDB\\MyMusic.Data.MongoDB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
