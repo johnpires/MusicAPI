@@ -1,7 +1,6 @@
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Data.MongoDB.deps.json
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Data.MongoDB.dll
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Data.MongoDB.pdb
-C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.csprojAssemblyReference.cache
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.AssemblyInfoInputs.cache
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.AssemblyInfo.cs
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.csproj.CoreCompileInputs.cache

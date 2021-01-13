@@ -80,6 +80,10 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.10, 3.1.10]"
             }
           ],
           "frameworkReferences": {
@@ -180,7 +184,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://aircanadait.pkgs.visualstudio.com/_packaging/AirCanada-Packages/nuget/v3/index.json": {},
@@ -188,8 +192,8 @@
           "https://nventive.pkgs.visualstudio.com/_packaging/nventive/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\johnp\\source\\repos\\SolutionMyMusic\\MyMusic.Core\\MyMusic.Core.csproj": {
                 "projectPath": "C:\\Users\\johnp\\source\\repos\\SolutionMyMusic\\MyMusic.Core\\MyMusic.Core.csproj"
@@ -204,8 +208,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -216,12 +220,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.1, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
             }
           },
           "imports": [
@@ -234,6 +232,17 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }

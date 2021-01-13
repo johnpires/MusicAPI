@@ -1291,7 +1291,7 @@
       },
       "MyMusic.Data/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.1",
           "MyMusic.Core": "1.0.0"
@@ -5077,6 +5077,10 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[3.1.10, 3.1.10]"
           }
         ],
