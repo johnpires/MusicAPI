@@ -9,5 +9,10 @@
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\MyMusic.Core\MyMusic.Core.csproj" />
+		<ProjectReference Include="..\MyMusic.Data\MyMusic.Data.csproj" />
+	</ItemGroup>
+
 
 </Project>

@@ -13,3 +13,6 @@ C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.API\obj\Debug\netcoreapp3.1\
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.RazorTargetAssemblyInfo.cache
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.dll
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.pdb
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Core.dll
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Data.dll
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Core.pdb
