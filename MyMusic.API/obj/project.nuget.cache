@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ESWBqg1a96AHG5jws196wReiCha5gM3tIA6mJDU68WtpjcErH6J+lHdO7APFYddz1FDcaZ0NN64tNoSugcy8VQ==",
+  "dgSpecHash": "d33zVNlFszI/yzUrkiDg8K1o5EU1qRJDkXkd+XBJ0B8DGRP/Qu8zVWmv76OgfYF7mmBQBfeV7OXexvIlIm1HLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\johnp\\source\\repos\\SolutionMyMusic\\MyMusic.API\\MyMusic.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\johnp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\johnp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\johnp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

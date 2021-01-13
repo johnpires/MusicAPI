@@ -9,11 +9,11 @@ namespace MyMusic.Core
 		IMusicRepository Musics { get; }
 		IArtistRepository Artist { get; }
 
-		public void Dispose()
+		Task<int> CommitAsync { get; }
+
+		void IDisposable.Dispose()
 		{
 			throw new NotImplementedException();
 		}
-
-		private Task<int> CommitAsync();
 	}
 }

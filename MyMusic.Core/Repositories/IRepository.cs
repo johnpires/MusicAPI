@@ -12,7 +12,7 @@ namespace MyMusic.Core.Repositories
 		Task<IEnumerable<TEntity>> GetAllAsync();
 		IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
 		Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate);
-		Task AddSync(TEntity entity);
+		Task AddAsync(TEntity entity);
 		Task AddRangeAsync(IEnumerable<TEntity> Entities);
 
 		void Remove(TEntity entity);
