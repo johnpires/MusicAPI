@@ -23,6 +23,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\MyMusic.Core\MyMusic.Core.csproj" />
 		<ProjectReference Include="..\MyMusic.Data\MyMusic.Data.csproj" />
+		<ProjectReference Include="..\MyMusic.Data.MongoDB\MyMusic.Data.MongoDB.csproj" />
 	</ItemGroup>
 
 

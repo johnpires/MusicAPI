@@ -11,8 +11,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MongoDB.Driver;
 using MyMusic.Core;
 using MyMusic.Data;
+using MyMusic.Data.MongoDB.Setting;
 
 namespace MyMusic.API
 {
@@ -29,8 +31,21 @@ namespace MyMusic.API
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllers();
+			//Configuration for SQL Server
 			services.AddDbContext<MyMusicDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("MyMusic.Data")));
 			services.AddScoped<IUnitOfWork, UnitOfWork>();
+			//Configuration for MongoDB
+			services.Configure<Settings>(
+				options =>
+				{
+					options.ConnectionString = Configuration.GetValue<string>("MongoDB:ConnectionString");
+					options.Database = Configuration.GetValue<string>("MongoDB:Database");
+				}
+			);
+			services.AddSingleton<IMongoClient, MongoClient>(
+				_ => new MongoClient(Configuration.GetValue<string>("MongoDB:ConnectionString"))
+			);
+			services.AddTransient<IDatabaseSettings, DatabaseSettings>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
