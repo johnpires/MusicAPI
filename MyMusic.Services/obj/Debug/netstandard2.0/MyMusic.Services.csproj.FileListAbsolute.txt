@@ -1,8 +1,12 @@
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\bin\Debug\netstandard2.0\MyMusic.Services.deps.json
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\bin\Debug\netstandard2.0\MyMusic.Services.dll
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\bin\Debug\netstandard2.0\MyMusic.Services.pdb
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\bin\Debug\netstandard2.0\MyMusic.Core.dll
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\bin\Debug\netstandard2.0\MyMusic.Core.pdb
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.csprojAssemblyReference.cache
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.AssemblyInfoInputs.cache
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.AssemblyInfo.cs
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.csproj.CoreCompileInputs.cache
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.csproj.CopyComplete
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.dll
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.pdb

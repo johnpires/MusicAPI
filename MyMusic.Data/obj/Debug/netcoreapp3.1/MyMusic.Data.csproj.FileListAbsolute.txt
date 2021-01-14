@@ -1,7 +1,3 @@
-C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.csprojAssemblyReference.cache
-C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.AssemblyInfoInputs.cache
-C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.AssemblyInfo.cs
-C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.csproj.CoreCompileInputs.cache
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\bin\Debug\netcoreapp3.1\MyMusic.Data.deps.json
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\bin\Debug\netcoreapp3.1\MyMusic.Data.runtimeconfig.json
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\bin\Debug\netcoreapp3.1\MyMusic.Data.runtimeconfig.dev.json
@@ -9,6 +5,10 @@ C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\bin\Debug\netcoreapp3.1
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\bin\Debug\netcoreapp3.1\MyMusic.Data.pdb
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\bin\Debug\netcoreapp3.1\MyMusic.Core.dll
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\bin\Debug\netcoreapp3.1\MyMusic.Core.pdb
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.csprojAssemblyReference.cache
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.AssemblyInfoInputs.cache
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.AssemblyInfo.cs
+C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.csproj.CoreCompileInputs.cache
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.csproj.CopyComplete
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.dll
 C:\Users\johnp\source\repos\SolutionMyMusic\MyMusic.Data\obj\Debug\netcoreapp3.1\MyMusic.Data.pdb
