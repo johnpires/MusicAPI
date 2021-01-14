@@ -14,9 +14,11 @@ using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 using MyMusic.Core;
 using MyMusic.Core.Repositories;
+using MyMusic.Core.Services;
 using MyMusic.Data;
 using MyMusic.Data.MongoDB.Repository;
 using MyMusic.Data.MongoDB.Setting;
+using MyMusic.Services.Services;
 
 namespace MyMusic.API
 {
@@ -36,6 +38,9 @@ namespace MyMusic.API
 			//Configuration for SQL Server
 			services.AddDbContext<MyMusicDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("MyMusic.Data")));
 			services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+			services.AddTransient<IMusicService, MusicService>();
+			services.AddTransient<IArtistService, ArtistService>();
 			//Configuration for MongoDB
 			services.Configure<Settings>(
 				options =>

@@ -11,7 +11,7 @@ namespace MyMusic.Core.Services
 		Task<IEnumerable<Music>> GetAllWithArtist();
 		Task<Music> GetMusicById(int id);
 		Task<IEnumerable<Music>> GetMusicsByArtistId(int artistId);
-		Task<Music> CreatMusic(Music newMusic);
+		Task<Music> CreateMusic(Music newMusic);
 		Task UpdateMusic(Music musicToBeupdated, Music music);
 		Task DeleteMusic(Music music);
 	}

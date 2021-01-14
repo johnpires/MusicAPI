@@ -4,16 +4,11 @@ using System.Threading.Tasks;
 
 namespace MyMusic.Core
 {
-	public class IUnitOfWork : IDisposable
+	public interface IUnitOfWork : IDisposable
 	{
 		IMusicRepository Musics { get; }
-		IArtistRepository Artist { get; }
+		IArtistRepository Artists { get; }
 
-		Task<int> CommitAsync { get; }
-
-		void IDisposable.Dispose()
-		{
-			throw new NotImplementedException();
-		}
+		Task<int> CommitAsync();
 	}
 }

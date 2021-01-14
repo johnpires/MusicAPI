@@ -2089,6 +2089,19 @@
         "runtime": {
           "bin/placeholder/MyMusic.Data.MongoDB.dll": {}
         }
+      },
+      "MyMusic.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MyMusic.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyMusic.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMusic.Services.dll": {}
+        }
       }
     }
   },
@@ -7050,6 +7063,11 @@
       "type": "project",
       "path": "../MyMusic.Data.MongoDB/MyMusic.Data.MongoDB.csproj",
       "msbuildProject": "../MyMusic.Data.MongoDB/MyMusic.Data.MongoDB.csproj"
+    },
+    "MyMusic.Services/1.0.0": {
+      "type": "project",
+      "path": "../MyMusic.Services/MyMusic.Services.csproj",
+      "msbuildProject": "../MyMusic.Services/MyMusic.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7059,7 +7077,8 @@
       "MongoDB.Driver >= 2.11.5",
       "MyMusic.Core >= 1.0.0",
       "MyMusic.Data >= 1.0.0",
-      "MyMusic.Data.MongoDB >= 1.0.0"
+      "MyMusic.Data.MongoDB >= 1.0.0",
+      "MyMusic.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7105,6 +7124,9 @@
             },
             "C:\\Users\\johnp\\source\\repos\\SolutionMyMusic\\MyMusic.Data\\MyMusic.Data.csproj": {
               "projectPath": "C:\\Users\\johnp\\source\\repos\\SolutionMyMusic\\MyMusic.Data\\MyMusic.Data.csproj"
+            },
+            "C:\\Users\\johnp\\source\\repos\\SolutionMyMusic\\MyMusic.Services\\MyMusic.Services.csproj": {
+              "projectPath": "C:\\Users\\johnp\\source\\repos\\SolutionMyMusic\\MyMusic.Services\\MyMusic.Services.csproj"
             }
           }
         }
