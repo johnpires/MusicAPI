@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyMusic.Core.Repositories
 {
-	public interface IComposerRpository
+	public interface IComposerRepository
 	{
 		Task<IEnumerable<Composer>> GetAllComposers();
 		Task<Composer> GetComposerById(string id);

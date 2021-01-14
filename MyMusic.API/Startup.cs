@@ -13,7 +13,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 using MyMusic.Core;
+using MyMusic.Core.Repositories;
 using MyMusic.Data;
+using MyMusic.Data.MongoDB.Repository;
 using MyMusic.Data.MongoDB.Setting;
 
 namespace MyMusic.API
@@ -46,6 +48,7 @@ namespace MyMusic.API
 				_ => new MongoClient(Configuration.GetValue<string>("MongoDB:ConnectionString"))
 			);
 			services.AddTransient<IDatabaseSettings, DatabaseSettings>();
+			services.AddScoped<IComposerRepository, ComposerRepository>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
